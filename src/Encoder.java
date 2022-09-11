@@ -20,7 +20,29 @@ public class Encoder {
         int offset = ThreadLocalRandom.current().nextInt(0, TABLE_SIZE);
         return encodeAtOffset(offset, plainText);
     }
-    
+
+    public String decode(String encodedText) {
+        int offset = CHAR_TABLE.get(encodedText.charAt(0));
+
+        StringBuilder decodedText = new StringBuilder();
+        char currChar;
+        int newCharIndex;
+
+        for (int i = 1; i < encodedText.length(); i++) {
+            currChar = encodedText.charAt(i);
+            if (currChar == ' ') {
+                decodedText.append(' ');
+                continue;
+            }
+
+            newCharIndex = CHAR_TABLE.get(currChar) + offset;
+            if (newCharIndex > 43) newCharIndex -= TABLE_SIZE;
+
+            decodedText.append(INDEX_TABLE.get(newCharIndex));
+        }
+
+        return decodedText.toString();
+    }
 
     private String encodeAtOffset(int offset, String plainText) {
         StringBuilder encodedText = new StringBuilder(String.valueOf(INDEX_TABLE.get(offset)));
