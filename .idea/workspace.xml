@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5cca94c8-d480-4b76-bb1f-3758b1d23dd5" name="Changes" comment="Complete Decode">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="5cca94c8-d480-4b76-bb1f-3758b1d23dd5" name="Changes" comment="Add changes to intellij">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662853408887</updated>
-      <workItem from="1662853410254" duration="4498000" />
+      <workItem from="1662853410254" duration="5000000" />
     </task>
     <task id="LOCAL-00001" summary="Complete Decode">
       <created>1662857942362</created>
@@ -85,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662857942362</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add changes to intellij">
+      <created>1662858189350</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662858189350</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +110,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Completed Decode" />
     <MESSAGE value="Complete Decode" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete Decode" />
+    <MESSAGE value="Add changes to intellij" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add changes to intellij" />
   </component>
 </project>
